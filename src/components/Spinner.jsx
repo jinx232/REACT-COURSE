@@ -1,0 +1,15 @@
+import { ClipLoader } from 'react-spinners'; 
+
+const override = {
+    display: 'block',
+    margin: '100px auto',
+}
+const Spinner = ({loading}) => {
+  return (
+    <div className="flex justify-center items-center">
+      <ClipLoader size={150} color={"#4338ca"} loading={loading} cssOverride={override} />
+    </div>
+  )
+}
+
+export default Spinner
