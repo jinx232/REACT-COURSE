@@ -10,7 +10,7 @@ const JobsPage = () => {
           </h1>
         </div>
       </section>
-      <JobListings limit={6} />
+      <JobListings limit={100} />
     </>
   );
 };
